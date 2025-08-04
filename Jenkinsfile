@@ -40,13 +40,13 @@ pipeline {
 
     post {
         success {
-            echo '✅ Build completed successfully!'
+            echo 'Build completed successfully!'
         }
         failure {
-            echo '❌ Build failed. Check logs for errors.'
+            echo 'Build failed. Check logs for errors.'
         }
         always {
-            echo '📦 Pipeline finished.'
+            echo 'Pipeline finished.'
         }
     }
 }
